@@ -121,7 +121,7 @@ head(gay)
 ```
 
 
-## Graphical results 
+## Graphical results for LGBTQ
 
 ```{r}
 barchartGC(~infected + treatment,data=gay)
