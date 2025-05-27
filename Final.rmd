@@ -70,6 +70,16 @@ Based on the inferential results, the p-value from the chi-squared test is 0.000
 
 ## Females
 
+Null hypothesis: Covid921 vaccine doesn't exhibit its effectiveness on females. 
+
+Alternative hypothesis: Covid921 vaccine does exhibit its effectiveness on females. 
+
+```{r}
+Females = FinalData[FinalData$sex=='F',]
+head(Females)
+```
+
+
 
 
 ## LGBTQ
