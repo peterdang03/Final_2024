@@ -37,7 +37,19 @@ Males = FinalData[FinalData$sex=='M',]
 head(Males)
 ```
 
+## Graphical results for males 
+
+```{r}
+barchartGC(~infected + treatment,data=Males)
+barchartGC(~infected + treatment,data=Males, type="percent")
+```
+
+According to the graphical results, The graph shows that the vaccine is effective in preventing COVID in males, because the amount of  males who got the vaccine and contracted COVID was lower than the men who got the placebo. 
+
+
+
 ## Females
+
 
 
 ## LGBTQ
