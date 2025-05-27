@@ -120,6 +120,16 @@ gay = FinalData[FinalData$LGBTQ=='gay',]
 head(gay)
 ```
 
+
+## Graphical results 
+
+```{r}
+barchartGC(~infected + treatment,data=gay)
+barchartGC(~infected + treatment,data=gay, type="percent")
+```
+
+There is about 20% of people who are LGBTQ who got COVID and received the vaccine. This is lower than the amount of LGBTQ people who got COVID and received the placebo. The vaccine is effective in stopping COVID in people who are LGBTQ.  
+
 ## Druggies
 
 
