@@ -111,7 +111,14 @@ According to the inferential results, we can see that the p-value from the chi-s
 
 ## LGBTQ
 
+Null hypothesis: the vaccine doesn't exhibit its effectiveness on people who are LGBTQ.
 
+Alternative hypothesis: the vaccine does exhibit its effectiveness on people who are LGBTQ.
+
+```{r}
+gay = FinalData[FinalData$LGBTQ=='gay',]
+head(gay)
+```
 
 ## Druggies
 
