@@ -26,6 +26,16 @@ A new  preventative vaccine (covid921) is under test in clinical trials. Given t
 
 ## Males
 
+The null hypothesis: the new preventive vaccine (Covid921) doesn't exhibit any effectiveness on males
+
+The alternative hypothesis: Covid921 does exhibit effectiveness on males.
+
+Cat~Cat
+
+```{r}
+Males = FinalData[FinalData$sex=='M',]
+head(Males)
+```
 
 ## Females
 
