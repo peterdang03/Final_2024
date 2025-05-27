@@ -98,6 +98,17 @@ colPerc(table1)
 
 We can see that about 35.07% of females who got the vaccine contracted COVID. While 64.93% of females who got the placebo contracted COVID. 
 
+## Inferential results for females 
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+According to the inferential results, we can see that the p-value from the chi-squared test is less than 0.05, therefore we reject the null hypothesis. For the odds ratio in the fisher's exact test is 1.856, meaning that that there is approximately a 1.86 chance that the vaccine will be effective in females. 
+
+
 ## LGBTQ
 
 
