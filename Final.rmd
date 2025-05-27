@@ -96,7 +96,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-We can see that about 35.07% of females who got the vaccine contracted COVID. While 64.93% of females who got the placebo contracted COVID. 
+We can see that about 35.07% of females who got the vaccine contracted COVID. While 64.93% of females who got the placebo contracted COVID. This implies that the vaccine is effective in preventing COVID for women.
 
 ## Inferential results for females 
 
