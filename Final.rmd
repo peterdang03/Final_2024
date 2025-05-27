@@ -26,6 +26,8 @@ A new  preventative vaccine (covid921) is under test in clinical trials. Given t
 
 ## Males
 
+Is the vaccine effective in males?
+
 The null hypothesis: the new preventive vaccine (Covid921) doesn't exhibit any effectiveness on males
 
 The alternative hypothesis: Covid921 does exhibit effectiveness on males.
