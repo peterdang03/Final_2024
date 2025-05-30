@@ -128,7 +128,17 @@ barchartGC(~infected + treatment,data=gay)
 barchartGC(~infected + treatment,data=gay, type="percent")
 ```
 
-There is about 20% of people who are LGBTQ who got COVID and received the vaccine. This is lower than the amount of LGBTQ people who got COVID and received the placebo. The vaccine is effective in stopping COVID in people who are LGBTQ.  
+There is about 20% of people who are LGBTQ who got COVID and received the vaccine. This is lower than the amount of LGBTQ people who got COVID and received the placebo. The vaccine is effective in stopping COVID in people who are LGBTQ. 
+
+## Numerical results for LGBTQ
+
+```{r}
+table1 <- xtabs(~infected + treatment, data=gay)
+rowPerc(table1)
+colPerc(table1)
+```
+
+According to the data, we can see that 20% of LGBTQ people who got the vaccine contracted COVID, while 80% of LGBTQ people who got the placebo contracted COVID. Therefore we can say that the vaccine is effective for them. 
 
 ## Druggies
 
