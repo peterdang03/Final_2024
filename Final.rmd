@@ -180,4 +180,14 @@ colPerc(table1)
 
 We can see that 91.67% of the drug users who got COVID received the vaccine. This means that the vaccine is not effective in people who are drug users, because the amount of drug users who got the placebo and contracted COVID was 8.33%. 
 
+## Inferential results for Druggies 
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+We can see that the p value for the chi-squared test is 0.0000000001414 which is less than 0.05. That means we reject the null hypothesis. The odds ratio from the fisher's exact test is 0.087, which means that the vaccine has a lower chance of being effective for drug users. 
+
 # Overall Results and Conclusions
