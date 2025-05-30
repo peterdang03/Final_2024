@@ -162,6 +162,13 @@ head(DrugUser)
 ```
 
 
+## Graphical results for Druggies
 
+```{r}
+barchartGC(~infected + treatment,data=DrugUser)
+barchartGC(~infected + treatment,data=DrugUser, type="percent")
+```
+
+The Data shows that the vaccine is more likely to be less effective in drug users. The amount of people who received the vaccine and contracted COVID passed 80%, which is significantly higher than the amount of people who received the placebo and contracted COVID. 
 
 # Overall Results and Conclusions
