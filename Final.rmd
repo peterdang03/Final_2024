@@ -171,4 +171,13 @@ barchartGC(~infected + treatment,data=DrugUser, type="percent")
 
 The Data shows that the vaccine is more likely to be less effective in drug users. The amount of people who received the vaccine and contracted COVID passed 80%, which is significantly higher than the amount of people who received the placebo and contracted COVID. 
 
+## Numerical results for Druggies 
+```{r}
+table1 <- xtabs(~infected + treatment, data=DrugUser)
+rowPerc(table1)
+colPerc(table1)
+```
+
+We can see that 91.67% of the drug users who got COVID received the vaccine. This means that the vaccine is not effective in people who are drug users, because the amount of drug users who got the placebo and contracted COVID was 8.33%. 
+
 # Overall Results and Conclusions
