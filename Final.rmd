@@ -140,6 +140,16 @@ colPerc(table1)
 
 According to the data, we can see that 20% of LGBTQ people who got the vaccine contracted COVID, while 80% of LGBTQ people who got the placebo contracted COVID. Therefore we can say that the vaccine is effective for them. 
 
+## Inferential results for LGBTQ 
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+According to the inferential results, the p value from the chi-squared test is 0.000002266 which is less than 0.05, so we reject the null hypothesis. The odds ratio from the fisher's exact test is 4.27, so the vaccine has a 4.27 chance of being effective in stopping COVID. 
+
 ## Druggies
 
 
