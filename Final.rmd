@@ -152,5 +152,16 @@ According to the inferential results, the p value from the chi-squared test is 0
 
 ## Druggies
 
+The null hypothesis: the vaccine doesn't exhibit its effectiveness for drug users. 
+
+The alternative hypothesis: the vaccine does exhibit its effectiveness for drug users.
+
+```{r}
+DrugUser = FinalData[FinalData$DrugUser=='yes',]
+head(DrugUser)
+```
+
+
+
 
 # Overall Results and Conclusions
